@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(204,229,255);
+  font-family: Courier New;
+  color: rgb(102,0,51);
+  font-size: 30px;
+  line-height: 70px;
+}
+h1 {
+  color: rgb(0,51,25);
+  font-family: Marker Felt;
+  font-size: 80px;
+  line-height: 80px;
+}
+a {
+  color: rgb(76,0,153);
+  text-decoration: overline;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  background: white;
+  border: solid;
+  border-color: grey;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px grey;
+  margin-left: 10%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  width: 75%;
+  padding-left: 5%;
+}
+
+.card {
+  background: white;
+  border: solid;
+  border-color: grey;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px grey;
+  margin: 0 auto;
+  padding-left: 2%;
+  width: 10%;
+}
+
+.main-image {
+  margin-left: 40%;
+}
+
+.main-top-text {
+  margin-left: 33%;
+}
+
+.button {
+  margin-left: 37%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin-left: -35px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 50%;
+  }
+  .card {
+    width: 5%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 30%;
+  }
+  .card {
+    width: 3%;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 20%;
+  }
+    .card {
+    width: 1%;
+  }
+}
